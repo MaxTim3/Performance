@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BucketList.Views.GoalAddingPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Editor Placeholder="Название задачи"
+                    Text="{Binding Name}"/>
+            <Editor Placeholder="Описание задачи"
+                    Text="{Binding Description}"/>
+            <Editor Placeholder="Дата выполнения задачи"
+                    Text="{Binding Date}"/>
+            <Button Text="Сохранить"
+                    Clicked="SaveButton_Clicked"/>
+            <Button Text="Удалить"
+                    Clicked="DeleteButton_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

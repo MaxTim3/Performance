@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BucketList.Views.HomePage">
+    <StackLayout BackgroundColor="#1B1B39">
+        <StackLayout Orientation="Horizontal"
+                     Padding="30"
+                     Spacing="15">
+            <Button BackgroundColor="#8B4C95"
+                     CornerRadius="30"
+                     HeightRequest="40"
+                     WidthRequest="40"/>
+            <Label x:Name="welcomeText" Text="Привет, Name!"
+               TextColor="#FFFFFF"
+               FontSize="22"
+               VerticalTextAlignment="Center"
+                   FontAttributes="Bold"/>
+        </StackLayout>
+        <AbsoluteLayout AbsoluteLayout.LayoutBounds="16,130,328,136">
+            <Frame AbsoluteLayout.LayoutBounds="30,0,333,136"
+                     CornerRadius="20">
+                <Frame.Background>
+                    <LinearGradientBrush EndPoint="1,0">
+                        <GradientStop Color="#8B4C95"
+                          Offset="0.1" />
+                        <GradientStop Color="Orange"
+                          Offset="1.0" />
+                    </LinearGradientBrush>
+                </Frame.Background>
+            </Frame>
+            <Label Text="Отлично!"
+                   AbsoluteLayout.LayoutBounds="60, 30"
+                   TextColor="White"
+                   FontSize="24"
+                   FontAttributes="Bold"/>
+            <Label Text="Так держать!"
+                    AbsoluteLayout.LayoutBounds="62, 60"
+                    TextColor="White"
+                    FontSize="24"
+                   FontAttributes="Bold"/>
+            <Label Text="0/0"
+        AbsoluteLayout.LayoutBounds="270, 55"
+        TextColor="White"
+        FontSize="24"
+       FontAttributes="Bold"/>
+            
+        </AbsoluteLayout>
+
+
+        <ScrollView Padding="30">
+            <CollectionView x:Name="goals"
+            SelectionMode="Single"
+            SelectionChanged="Goals_SelectionChanged"
+                            >
+                <CollectionView.ItemsLayout>
+                    <LinearItemsLayout Orientation="Vertical"
+                       ItemSpacing="10"/>
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout>
+                            <Frame BackgroundColor ="#E0DFFE"
+                       CornerRadius="15"
+                       HorizontalOptions="CenterAndExpand"
+                       WidthRequest="260">
+                                <Label Text="{Binding Name}"
+                           FontFamily="Raleway"
+                           TextColor="#454545"
+                           FontSize="16"
+                           HorizontalTextAlignment="Center"
+                           />
+                            </Frame>
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </ScrollView>
+        
+        
+        
+        <AbsoluteLayout>
+            <Button x:Name="newGoal"
+                 Text=""
+                TextColor="White"
+                FontSize="20"
+                 Clicked="NewGoal_Clicked"
+                BackgroundColor="#7766C6"
+                CornerRadius="250"
+                Margin="40"
+                    HeightRequest="60"
+                    WidthRequest="60"
+                    AbsoluteLayout.LayoutBounds="125, 0"/>
+            <BoxView HeightRequest="35"
+                     WidthRequest="1.5"
+                     BackgroundColor="White"
+                     AbsoluteLayout.LayoutBounds="194, 52"
+                     CornerRadius="10"/>
+            <BoxView HeightRequest="1.5"
+         WidthRequest="35"
+         BackgroundColor="White"
+         AbsoluteLayout.LayoutBounds="178, 68.5"
+                     CornerRadius="10"/>
+        </AbsoluteLayout>
+
+
+    </StackLayout>
+</ContentPage>

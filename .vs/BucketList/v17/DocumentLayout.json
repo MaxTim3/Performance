@@ -1,0 +1,119 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u0422\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\BucketList\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{409A80B6-DB0F-4B87-8572-F34C1C7F5EFD}|BucketList\\BucketList\\BucketList.csproj|c:\\users\\\u0442\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\bucketlist\\bucketlist\\bucketlist\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{409A80B6-DB0F-4B87-8572-F34C1C7F5EFD}|BucketList\\BucketList\\BucketList.csproj|solutionrelative:bucketlist\\bucketlist\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{409A80B6-DB0F-4B87-8572-F34C1C7F5EFD}|BucketList\\BucketList\\BucketList.csproj|c:\\users\\\u0442\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\bucketlist\\bucketlist\\bucketlist\\views\\goaladdingpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{409A80B6-DB0F-4B87-8572-F34C1C7F5EFD}|BucketList\\BucketList\\BucketList.csproj|solutionrelative:bucketlist\\bucketlist\\views\\goaladdingpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{409A80B6-DB0F-4B87-8572-F34C1C7F5EFD}|BucketList\\BucketList\\BucketList.csproj|c:\\users\\\u0442\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\bucketlist\\bucketlist\\bucketlist\\appshell.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{409A80B6-DB0F-4B87-8572-F34C1C7F5EFD}|BucketList\\BucketList\\BucketList.csproj|solutionrelative:bucketlist\\bucketlist\\appshell.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{409A80B6-DB0F-4B87-8572-F34C1C7F5EFD}|BucketList\\BucketList\\BucketList.csproj|c:\\users\\\u0442\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\bucketlist\\bucketlist\\bucketlist\\views\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{409A80B6-DB0F-4B87-8572-F34C1C7F5EFD}|BucketList\\BucketList\\BucketList.csproj|solutionrelative:bucketlist\\bucketlist\\views\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{409A80B6-DB0F-4B87-8572-F34C1C7F5EFD}|BucketList\\BucketList\\BucketList.csproj|c:\\users\\\u0442\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\bucketlist\\bucketlist\\bucketlist\\views\\goaladdingpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{409A80B6-DB0F-4B87-8572-F34C1C7F5EFD}|BucketList\\BucketList\\BucketList.csproj|solutionrelative:bucketlist\\bucketlist\\views\\goaladdingpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{409A80B6-DB0F-4B87-8572-F34C1C7F5EFD}|BucketList\\BucketList\\BucketList.csproj|c:\\users\\\u0442\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\bucketlist\\bucketlist\\bucketlist\\views\\homepage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{409A80B6-DB0F-4B87-8572-F34C1C7F5EFD}|BucketList\\BucketList\\BucketList.csproj|solutionrelative:bucketlist\\bucketlist\\views\\homepage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0422\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\BucketList\\Bucketlist\\BucketList\\AppShell.xaml",
+              "RelativeDocumentMoniker": "Bucketlist\\BucketList\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\\u0422\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\BucketList\\Bucketlist\\BucketList\\AppShell.xaml",
+              "RelativeToolTip": "Bucketlist\\BucketList\\AppShell.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-27T17:00:17.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0422\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\BucketList\\Bucketlist\\BucketList\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Bucketlist\\BucketList\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0422\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\BucketList\\Bucketlist\\BucketList\\App.xaml.cs",
+              "RelativeToolTip": "Bucketlist\\BucketList\\App.xaml.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABwAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T16:31:05.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GoalAddingPage.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0422\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\BucketList\\Bucketlist\\BucketList\\Views\\GoalAddingPage.xaml",
+              "RelativeDocumentMoniker": "Bucketlist\\BucketList\\Views\\GoalAddingPage.xaml",
+              "ToolTip": "C:\\Users\\\u0422\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\BucketList\\Bucketlist\\BucketList\\Views\\GoalAddingPage.xaml",
+              "RelativeToolTip": "Bucketlist\\BucketList\\Views\\GoalAddingPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-27T15:57:24.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GoalAddingPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0422\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\BucketList\\Bucketlist\\BucketList\\Views\\GoalAddingPage.xaml.cs",
+              "RelativeDocumentMoniker": "Bucketlist\\BucketList\\Views\\GoalAddingPage.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0422\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\BucketList\\Bucketlist\\BucketList\\Views\\GoalAddingPage.xaml.cs",
+              "RelativeToolTip": "Bucketlist\\BucketList\\Views\\GoalAddingPage.xaml.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowDUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T16:06:24.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u0422\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\BucketList\\Bucketlist\\BucketList\\Views\\HomePage.xaml.cs",
+              "RelativeDocumentMoniker": "Bucketlist\\BucketList\\Views\\HomePage.xaml.cs",
+              "ToolTip": "C:\\Users\\\u0422\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\BucketList\\Bucketlist\\BucketList\\Views\\HomePage.xaml.cs",
+              "RelativeToolTip": "Bucketlist\\BucketList\\Views\\HomePage.xaml.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T15:46:31.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomePage.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0422\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\BucketList\\Bucketlist\\BucketList\\Views\\HomePage.xaml",
+              "RelativeDocumentMoniker": "Bucketlist\\BucketList\\Views\\HomePage.xaml",
+              "ToolTip": "C:\\Users\\\u0422\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\BucketList\\Bucketlist\\BucketList\\Views\\HomePage.xaml",
+              "RelativeToolTip": "Bucketlist\\BucketList\\Views\\HomePage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-27T15:46:12.577Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

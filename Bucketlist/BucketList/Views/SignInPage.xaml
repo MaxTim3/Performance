@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BucketList.Views.SignInPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <AbsoluteLayout>
+                <BoxView x:Name="_bg__sing_in_3"
+                 Color="#1B1B39"
+                 AbsoluteLayout.LayoutBounds="0,0,3000,3000" />
+                <Label x:Name="today"
+               FontFamily="Poppins"
+               FontAttributes="Bold"
+               FontSize="36"
+               TextColor="#FFFFFF"
+               AbsoluteLayout.LayoutBounds="34,96,141.6,50.6"
+               Text="Today"
+               />
+                <Label x:Name="only"
+               FontFamily="Poppins"
+               FontAttributes="Bold"
+               FontSize="36"
+               TextColor="#FFFFFF"
+               AbsoluteLayout.LayoutBounds="31,56,110.6,50.6"
+               Text="Only"
+               />
+
+                <Label x:Name="welcome__make_your_dreams_come_true_and_achieve_your_goals_with_us_"
+               FontFamily="Poppins"
+               HorizontalTextAlignment="Center"
+               FontSize="14"
+               TextColor="#FCFCFC"
+               AbsoluteLayout.LayoutBounds="46,411,270.4,46.4"
+               Text="Добро пожаловать! Воплощай свои мечты в реальность и добивайся своих целей!"
+               />
+                <Entry x:Name="userEntry"
+               Placeholder="Введите своё имя"
+               PlaceholderColor="#B8B8B8"
+               TextColor="White"
+               HorizontalOptions="Center"
+               FontFamily="Popins"
+               AbsoluteLayout.LayoutBounds="46,480,270.4,46.4"
+               />
+                <AbsoluteLayout x:Name="group_4"
+                        AbsoluteLayout.LayoutBounds="180,551,22,7">
+
+                    <BoxView x:Name="ellipse_49"
+                     Color="#626262"
+                     AbsoluteLayout.LayoutBounds="15,0,7,7"
+                     CornerRadius="3"/>
+                    <BoxView x:Name="ellipse_50"
+                     Color="#E3E3E3"
+                     AbsoluteLayout.LayoutBounds="0,0,7,7"
+                     CornerRadius="3"/>
+                </AbsoluteLayout>
+                <Button x:Name="signInButton" 
+                Text="Начать"
+                TextColor="#FFFFFF"
+                Clicked="SignInButton_Clicked"
+                CornerRadius="30"
+                BackgroundColor="#7766C6"
+                FontFamily="Popins"
+                AbsoluteLayout.LayoutBounds="45,585,302,45"/>
+                <Label x:Name="errorText"
+               Text=""
+               TextColor="Red"
+               AbsoluteLayout.LayoutBounds="45,515,302,45"
+        />
+            </AbsoluteLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
