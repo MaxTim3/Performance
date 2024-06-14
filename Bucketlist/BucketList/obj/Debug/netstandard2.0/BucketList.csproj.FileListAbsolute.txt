@@ -37,3 +37,23 @@ C:\Users\денис\Desktop\xam projj\Performance\BucketList\BucketList\obj\Debu
 C:\Users\денис\Desktop\xam projj\Performance\BucketList\BucketList\obj\Debug\netstandard2.0\BucketList.dll
 C:\Users\денис\Desktop\xam projj\Performance\BucketList\BucketList\obj\Debug\netstandard2.0\refint\BucketList.dll
 C:\Users\денис\Desktop\xam projj\Performance\BucketList\BucketList\obj\Debug\netstandard2.0\BucketList.pdb
+C:\Users\Тимофей\source\repos\Perfomance\BucketList\BucketList\bin\Debug\netstandard2.0\BucketList.deps.json
+C:\Users\Тимофей\source\repos\Perfomance\BucketList\BucketList\bin\Debug\netstandard2.0\BucketList.dll
+C:\Users\Тимофей\source\repos\Perfomance\BucketList\BucketList\bin\Debug\netstandard2.0\ref\BucketList.dll
+C:\Users\Тимофей\source\repos\Perfomance\BucketList\BucketList\bin\Debug\netstandard2.0\BucketList.pdb
+C:\Users\Тимофей\source\repos\Perfomance\BucketList\BucketList\obj\Debug\netstandard2.0\BucketList.csproj.AssemblyReference.cache
+C:\Users\Тимофей\source\repos\Perfomance\BucketList\BucketList\obj\Debug\netstandard2.0\BucketList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Тимофей\source\repos\Perfomance\BucketList\BucketList\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Тимофей\source\repos\Perfomance\BucketList\BucketList\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\Тимофей\source\repos\Perfomance\BucketList\BucketList\obj\Debug\netstandard2.0\Views\CategoriesPage.xaml.g.cs
+C:\Users\Тимофей\source\repos\Perfomance\BucketList\BucketList\obj\Debug\netstandard2.0\Views\GoalAddingPage.xaml.g.cs
+C:\Users\Тимофей\source\repos\Perfomance\BucketList\BucketList\obj\Debug\netstandard2.0\Views\HomePage.xaml.g.cs
+C:\Users\Тимофей\source\repos\Perfomance\BucketList\BucketList\obj\Debug\netstandard2.0\Views\SignInPage.xaml.g.cs
+C:\Users\Тимофей\source\repos\Perfomance\BucketList\BucketList\obj\Debug\netstandard2.0\BucketList.AssemblyInfoInputs.cache
+C:\Users\Тимофей\source\repos\Perfomance\BucketList\BucketList\obj\Debug\netstandard2.0\BucketList.AssemblyInfo.cs
+C:\Users\Тимофей\source\repos\Perfomance\BucketList\BucketList\obj\Debug\netstandard2.0\BucketList.csproj.CoreCompileInputs.cache
+C:\Users\Тимофей\source\repos\Perfomance\BucketList\BucketList\obj\Debug\netstandard2.0\BucketList.sourcelink.json
+C:\Users\Тимофей\source\repos\Perfomance\BucketList\BucketList\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Тимофей\source\repos\Perfomance\BucketList\BucketList\obj\Debug\netstandard2.0\BucketList.dll
+C:\Users\Тимофей\source\repos\Perfomance\BucketList\BucketList\obj\Debug\netstandard2.0\refint\BucketList.dll
+C:\Users\Тимофей\source\repos\Perfomance\BucketList\BucketList\obj\Debug\netstandard2.0\BucketList.pdb

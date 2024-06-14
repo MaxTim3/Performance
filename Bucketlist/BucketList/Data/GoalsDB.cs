@@ -24,14 +24,12 @@ namespace BucketList.Data
 
         public Task<Goal> GetGoalAsync(int id)
         {
-            return db.Table<Goal>()
-                            .Where(i => i.ID == id)
-                            .FirstOrDefaultAsync();
+            return db.GetAsync<Goal>(id);
         }
 
         public Task<int> SaveGoalAsync(Goal goal)
         {
-            if (goal.ID != 0)
+            if (goal.Id != 0)
             {
                 return db.UpdateAsync(goal);
             }

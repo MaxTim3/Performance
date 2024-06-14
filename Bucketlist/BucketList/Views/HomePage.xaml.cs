@@ -25,17 +25,15 @@ namespace BucketList.Views
         }
         private async void NewGoal_Clicked(object sender, EventArgs e)
         {
-            await Shell.Current.GoToAsync(nameof(GoalAddingPage));
+            await Navigation.PushModalAsync(new GoalAddingPage());
         }
 
         private async void Goals_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            if(e.CurrentSelection != null)
-            {
-                Goal goal = (Goal)e.CurrentSelection.FirstOrDefault();
-                await Shell.Current.GoToAsync(
-                    $"{ nameof(GoalAddingPage)}?{ nameof(GoalAddingPage.ItemID)}={goal.ID.ToString()}");
-            }
+            Goal goal = (Goal)e.CurrentSelection.FirstOrDefault();
+            GoalPage goalPage = new GoalPage();
+            goalPage.BindingContext = goal;
+            await Navigation.PushModalAsync(goalPage);
         }
     }
 }

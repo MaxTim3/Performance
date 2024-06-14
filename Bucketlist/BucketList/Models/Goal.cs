@@ -8,9 +8,14 @@ namespace BucketList.Models
     public class Goal
     {
         [PrimaryKey, AutoIncrement]
-        public int ID { get; set; }
+        public int Id { get; set; }
+
         public string Name { get; set; }
         public string Description { get; set; }
-        public int Date {  get; set; }
+        public string Date {  get; set; }
+        public bool IsCompleted { get; set; }
+
+        [Indexed]
+        public int CheckpointId {  get; set; }
     }
 }

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BucketList.Views.RoadmapPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout>
+                <Button Text="Назад"
+                        Clicked="Back_Clicked"/>
+            </StackLayout>
+
+            <ScrollView Padding="30">
+                <CollectionView x:Name="checkpoints"
+    SelectionMode="Single"
+    SelectionChanged="Checkpoints_SelectionChanged"
+                    >
+                    <CollectionView.ItemsLayout>
+                        <LinearItemsLayout Orientation="Vertical"
+               ItemSpacing="10"/>
+                    </CollectionView.ItemsLayout>
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <StackLayout>
+                                <Frame BackgroundColor ="#E0DFFE"
+               CornerRadius="15"
+               HorizontalOptions="CenterAndExpand"
+               WidthRequest="260">
+                                    <Label Text="{Binding Name}"
+                   FontFamily="Raleway"
+                   TextColor="#454545"
+                   FontSize="16"
+                   HorizontalTextAlignment="Center"
+                   />
+                                </Frame>
+                            </StackLayout>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </ScrollView>
+
+            <AbsoluteLayout>
+                <Button x:Name="newCheckpoint"
+         Text=""
+        TextColor="White"
+        FontSize="20"
+         Clicked="NewCheckpoint_Clicked"
+        BackgroundColor="#7766C6"
+        CornerRadius="250"
+        Margin="40"
+            HeightRequest="60"
+            WidthRequest="60"
+            AbsoluteLayout.LayoutBounds="125, 0"/>
+                <BoxView HeightRequest="35"
+             WidthRequest="1.5"
+             BackgroundColor="White"
+             AbsoluteLayout.LayoutBounds="194, 52"
+             CornerRadius="10"/>
+                <BoxView HeightRequest="1.5"
+ WidthRequest="35"
+ BackgroundColor="White"
+ AbsoluteLayout.LayoutBounds="178, 68.5"
+             CornerRadius="10"/>
+            </AbsoluteLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

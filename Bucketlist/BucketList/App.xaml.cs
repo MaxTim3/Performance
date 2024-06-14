@@ -9,8 +9,7 @@ namespace BucketList
 {
     public partial class App : Application
     {
-        static GoalsDB goalsDB;
-
+        public static GoalsDB goalsDB;
         public static GoalsDB GoalsDB
         {
             get
@@ -24,11 +23,25 @@ namespace BucketList
             }
         }
 
+        public static CheckpointsDB checkpointsDB;
+        public static CheckpointsDB CheckpointsDB
+        {
+            get
+            {
+                if (checkpointsDB == null)
+                {
+                    checkpointsDB = new CheckpointsDB(
+                        Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "CheckpointsDatabase.db3"));
+                }
+                return checkpointsDB;
+            }
+        }
+
         public App()
         {
             InitializeComponent();
 
-            MainPage = new AppShell();
+            MainPage = new NavigationPage(new HomePage());
         }
 
         protected override void OnStart()

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BucketList.Views.GoalPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Text="Назад"
+                    Clicked="Back_Clicked"/>
+            <Button Text="к чекпоинтам"
+                    Clicked="Checkpoints_Clicked"/>
+            <Button Text="редактировать"
+                    Clicked="Edit_Clicked"/>
+            <Button Text="Удалить"
+                    Clicked="Delete_Clicked"/>
+
+            <Label Text="{Binding Date}"/>
+            <Label Text="{Binding Name}"/>
+            <Label Text="{Binding Description}"/>
+
+            <Button Text="Выполнено"
+                    Clicked="Completed_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

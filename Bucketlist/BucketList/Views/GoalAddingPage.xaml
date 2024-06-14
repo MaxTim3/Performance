@@ -4,16 +4,16 @@
              x:Class="BucketList.Views.GoalAddingPage">
     <ContentPage.Content>
         <StackLayout>
+            <Button Text="Назад"
+                Clicked="Back_Clicked"/>
             <Editor Placeholder="Название задачи"
                     Text="{Binding Name}"/>
-            <Editor Placeholder="Описание задачи"
-                    Text="{Binding Description}"/>
             <Editor Placeholder="Дата выполнения задачи"
                     Text="{Binding Date}"/>
+            <Editor Placeholder="Описание задачи"
+                    Text="{Binding Description}"/>
             <Button Text="Сохранить"
-                    Clicked="SaveButton_Clicked"/>
-            <Button Text="Удалить"
-                    Clicked="DeleteButton_Clicked"/>
+                    Clicked="Save_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

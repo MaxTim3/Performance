@@ -26,7 +26,7 @@ namespace BucketList.Views
             {
                 errorText.Text = "";
             }
-            await Navigation.PushModalAsync(new AppShell());
+            await Navigation.PushModalAsync(new HomePage());
 
         }
     }
