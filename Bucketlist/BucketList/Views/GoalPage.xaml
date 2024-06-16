@@ -3,22 +3,102 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BucketList.Views.GoalPage">
     <ContentPage.Content>
-        <StackLayout>
-            <Button Text="Назад"
-                    Clicked="Back_Clicked"/>
+        <AbsoluteLayout BackgroundColor="#1B1B39"
+                     Padding="0"
+                     Margin="0">
+            <AbsoluteLayout AbsoluteLayout.LayoutBounds="0, 0, 1, 1"
+                            AbsoluteLayout.LayoutFlags="SizeProportional">
+                <Frame BackgroundColor="#826FA8"
+                       AbsoluteLayout.LayoutBounds="0, 0, 1, 0.57"
+                       AbsoluteLayout.LayoutFlags="SizeProportional"
+                       CornerRadius="50"/>
+                <Frame BackgroundColor="#826FA8"
+                       AbsoluteLayout.LayoutBounds="0, 0, 1, 0.15"
+                       AbsoluteLayout.LayoutFlags="SizeProportional"
+                       />
+                <Frame AbsoluteLayout.LayoutBounds="0, -45, 1, 0.47"
+                       AbsoluteLayout.LayoutFlags="SizeProportional"
+                       CornerRadius="50">
+                    <Frame.Background>
+                        <LinearGradientBrush EndPoint="0,1">
+                            <GradientStop Color="#740D62"
+                                          Offset="0.1" />
+                            <GradientStop Color="#F45D78"
+                                          Offset="0.56" />
+                            <GradientStop Color="#FF9D18"
+                                          Offset="1.0" />
+                        </LinearGradientBrush>
+                    </Frame.Background>
+                </Frame>
+
+                <Image x:Name="BackBut"
+                       AbsoluteLayout.LayoutFlags="All"
+                       AbsoluteLayout.LayoutBounds="0.06, 0.03, 0.06, 0.06"/>
+                <Button Text="Назад"
+                        Clicked="Back_Clicked"
+                        AbsoluteLayout.LayoutFlags="All"
+                        AbsoluteLayout.LayoutBounds="0.05, 0.03, 0.1, 0.06"
+                        Opacity="0"/>
+
+                <Image x:Name="EditBut"
+                       AbsoluteLayout.LayoutFlags="All"
+                       AbsoluteLayout.LayoutBounds="0.82, 0.03, 0.06, 0.06"/>
+                <Button Text="редактировать"
+                        Clicked="Edit_Clicked"
+                        AbsoluteLayout.LayoutFlags="All"
+                        AbsoluteLayout.LayoutBounds="0.82, 0.03, 0.1, 0.06"
+                        Opacity="0"/>
+
+                <Image x:Name="DeleteBut"
+                       AbsoluteLayout.LayoutFlags="All"
+                       AbsoluteLayout.LayoutBounds="0.92, 0.03, 0.06, 0.06"/>
+                <Button Text="Удалить"
+                        Clicked="Delete_Clicked"
+                        AbsoluteLayout.LayoutFlags="All"
+                        AbsoluteLayout.LayoutBounds="0.94, 0.03, 0.1, 0.06"
+                        Opacity="0"/>
+
+                <Label Text="{Binding Name}"
+                       TextColor="White"
+                       FontAttributes="Bold"
+                       FontSize="30"
+                       AbsoluteLayout.LayoutBounds="0.3, 0.63, 0.7, 0.07"
+                       AbsoluteLayout.LayoutFlags="All"/>
+
+                <Label Text="{Binding Description}"
+                       TextColor="#CBCBCB"
+                       FontSize="15"
+                       AbsoluteLayout.LayoutFlags="All"
+                       AbsoluteLayout.LayoutBounds="0.38, 0.8, 0.75, 0.2"/>
+
+                <Button Clicked="Completed_Clicked"
+                        BackgroundColor="#9483B7"
+                        CornerRadius="25"
+                        AbsoluteLayout.LayoutFlags="All"
+                        AbsoluteLayout.LayoutBounds="0.5, 0.95, 0.8, 0.06"/>
+                <Image x:Name="DoneBut"
+                       AbsoluteLayout.LayoutFlags="All"
+                       AbsoluteLayout.LayoutBounds="0.51, 0.96, 0.07, 0.07"/>
+            </AbsoluteLayout>
+
+
+
+
+
             <Button Text="к чекпоинтам"
-                    Clicked="Checkpoints_Clicked"/>
-            <Button Text="редактировать"
-                    Clicked="Edit_Clicked"/>
-            <Button Text="Удалить"
-                    Clicked="Delete_Clicked"/>
+            Clicked="Checkpoints_Clicked"/>
+
+
 
             <Label Text="{Binding Date}"/>
-            <Label Text="{Binding Name}"/>
-            <Label Text="{Binding Description}"/>
 
-            <Button Text="Выполнено"
-                    Clicked="Completed_Clicked"/>
-        </StackLayout>
+
+
+
+
+
+
+
+        </AbsoluteLayout>
     </ContentPage.Content>
 </ContentPage>

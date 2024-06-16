@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
@@ -10,6 +10,22 @@
     <DebugType>portable</DebugType>
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\Arrow_1.png" />
+    <None Remove="Images\Delete.png" />
+    <None Remove="Images\Done.png" />
+    <None Remove="Images\Edit.png" />
+    <None Remove="Images\Union.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Images\Arrow_1.png" />
+    <EmbeddedResource Include="Images\Delete.png" />
+    <EmbeddedResource Include="Images\Done.png" />
+    <EmbeddedResource Include="Images\Edit.png" />
+    <EmbeddedResource Include="Images\Union.png" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="sqlite-net-pcl" Version="1.9.172" />

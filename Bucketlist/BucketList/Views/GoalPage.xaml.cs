@@ -15,6 +15,10 @@ namespace BucketList.Views
         public GoalPage()
         {
             InitializeComponent();
+            BackBut.Source = ImageSource.FromResource("BucketList.Images.Arrow_1.png");
+            EditBut.Source = ImageSource.FromResource("BucketList.Images.Edit.png");
+            DeleteBut.Source = ImageSource.FromResource("BucketList.Images.Delete.png");
+            DoneBut.Source = ImageSource.FromResource("BucketList.Images.Done.png");
         }
 
         private async void Back_Clicked(object sender, EventArgs e)
