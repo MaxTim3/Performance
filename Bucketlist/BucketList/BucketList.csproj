@@ -16,6 +16,7 @@
     <None Remove="Images\Delete.png" />
     <None Remove="Images\Done.png" />
     <None Remove="Images\Edit.png" />
+    <None Remove="Images\Plus.png" />
     <None Remove="Images\Union.png" />
   </ItemGroup>
 
@@ -25,6 +26,7 @@
     <EmbeddedResource Include="Images\Done.png" />
     <EmbeddedResource Include="Images\Edit.png" />
     <EmbeddedResource Include="Images\Union.png" />
+    <EmbeddedResource Include="Images\Plus.png" />
   </ItemGroup>
 
   <ItemGroup>

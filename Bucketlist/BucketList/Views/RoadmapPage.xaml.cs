@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BucketList.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,28 +15,34 @@ namespace BucketList.Views
         public RoadmapPage()
         {
             InitializeComponent();
+
+            BackBut.Source = ImageSource.FromResource("BucketList.Images.Arrow_1.png");
+            PlusBut.Source = ImageSource.FromResource("BucketList.Images.Plus.png");
         }
 
-        /*protected override async void OnAppearing()
+        protected override async void OnAppearing()
         {
-            checkpoints.ItemsSource = await App.checkpointsDB.GetCheckpointsAsync();
+            checkpoints.ItemsSource = await App.GoalsDB.GetGoalsAsync();
 
             base.OnAppearing();
-        }*/
+        }
 
         private async void Back_Clicked(object sender, EventArgs e)
         {
             await Navigation.PopModalAsync();
         }
 
-        private /*async*/ void NewCheckpoint_Clicked(object sender, EventArgs e)
+        private async void NewCheckpoint_Clicked(object sender, EventArgs e)
         {
-            //await Navigation.PushModalAsync(new CheckpointAddingPage());
+            await Navigation.PushModalAsync(new GoalAddingPage());
         }
 
-        private void Checkpoints_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private async void Checkpoints_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-
+            Goal goal = (Goal)e.CurrentSelection.FirstOrDefault();
+            GoalPage goalPage = new GoalPage();
+            goalPage.BindingContext = goal;
+            await Navigation.PushModalAsync(goalPage);
         }
     }
 }
