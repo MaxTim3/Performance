@@ -16,6 +16,8 @@ namespace BucketList.Views
         public HomePage()
         {
             InitializeComponent();
+
+            TxtGreat.Text = "Отлично! \n" + "Так держать!";
         }
         protected override async void OnAppearing()
         {
