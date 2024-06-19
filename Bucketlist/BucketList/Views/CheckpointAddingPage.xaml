@@ -4,9 +4,16 @@
              x:Class="BucketList.Views.CheckpointAddingPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Button Text="Назад"
+    Clicked="Back_Clicked"/>
+            <Editor Placeholder="Название задачи"
+        Text="{Binding Name}"/>
+            <Editor Placeholder="Дата выполнения задачи"
+        Text="{Binding Date}"/>
+            <Editor Placeholder="Описание задачи"
+        Text="{Binding Description}"/>
+            <Button Text="Сохранить"
+        Clicked="Save_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

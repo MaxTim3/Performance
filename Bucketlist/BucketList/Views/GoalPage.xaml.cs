@@ -45,7 +45,7 @@ namespace BucketList.Views
         private async void Delete_Clicked(object sender, EventArgs e)
         {
             Goal goal = (Goal)BindingContext;
-            await App.GoalsDB.DeleteGoalAsync(goal);
+            await App.BucketlistDB.DeleteGoalAsync(goal);
             await Navigation.PopModalAsync();
         }
 

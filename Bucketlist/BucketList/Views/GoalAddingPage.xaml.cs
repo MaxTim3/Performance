@@ -28,7 +28,7 @@ namespace BucketList.Views
             Goal goal = (Goal)BindingContext;
             if (!string.IsNullOrWhiteSpace(goal.Name))
             {
-                await App.GoalsDB.SaveGoalAsync(goal);
+                await App.BucketlistDB.SaveGoalAsync(goal);
             }
             await Navigation.PopModalAsync();
         }

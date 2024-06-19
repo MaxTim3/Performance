@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Xml.Serialization;
 
 namespace BucketList.Models
 {
@@ -12,7 +13,7 @@ namespace BucketList.Models
 
         public string Name { get; set; }
         public string Description { get; set; }
-        public string Date {  get; set; }
+        public string Date { get; set; }
         public bool IsCompleted { get; set; }
     }
 }

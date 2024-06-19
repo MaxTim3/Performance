@@ -9,31 +9,16 @@ namespace BucketList
 {
     public partial class App : Application
     {
-        public static GoalsDB goalsDB;
-        public static GoalsDB GoalsDB
+        public static BucketlistDB bucketlistDB;
+        public static BucketlistDB BucketlistDB
         {
             get
             {
-                if (goalsDB == null)
+                if (bucketlistDB == null)
                 {
-                    goalsDB = new GoalsDB(
-                        Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "GoalsDatabase.db3"));
+                    bucketlistDB = new BucketlistDB(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Bucketlist.db"));
                 }
-                return goalsDB;
-            }
-        }
-
-        public static CheckpointsDB checkpointsDB;
-        public static CheckpointsDB CheckpointsDB
-        {
-            get
-            {
-                if (checkpointsDB == null)
-                {
-                    checkpointsDB = new CheckpointsDB(
-                        Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "CheckpointsDatabase.db3"));
-                }
-                return checkpointsDB;
+                return bucketlistDB;
             }
         }
 

@@ -21,11 +21,11 @@ namespace BucketList.Views
         }
         protected override async void OnAppearing()
         {
-            goals.ItemsSource = await App.GoalsDB.GetGoalsAsync();
+            goals.ItemsSource = await App.BucketlistDB.GetGoalsAsync();
 
             base.OnAppearing();
         }
-        private async void NewGoal_Clicked(object sender, EventArgs e)
+        private async void New_Goal_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushModalAsync(new GoalAddingPage());
         }
@@ -36,6 +36,11 @@ namespace BucketList.Views
             GoalPage goalPage = new GoalPage();
             goalPage.BindingContext = goal;
             await Navigation.PushModalAsync(goalPage);
+        }
+
+        private async void Category_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new CategoriesPage());
         }
     }
 }

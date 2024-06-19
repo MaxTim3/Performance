@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BucketList.Views.CategoryPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Text="назад" Clicked="Back_Clicked"/>
+            <Button Text="редактировать" Clicked="Edit_Clicked"/>
+            <Button Text="удалить" Clicked="Delete_Clicked"/>
+
+            <ScrollView Padding="30">
+                <CollectionView x:Name="goals"
+    SelectionMode="Single"
+    SelectionChanged="Goals_SelectionChanged"
+                    >
+                    <CollectionView.ItemsLayout>
+                        <LinearItemsLayout Orientation="Vertical"
+               ItemSpacing="10"/>
+                    </CollectionView.ItemsLayout>
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <StackLayout>
+                                <Frame BackgroundColor ="#E0DFFE"
+               CornerRadius="15"
+               HorizontalOptions="CenterAndExpand"
+               WidthRequest="260">
+                                    <Label Text="{Binding Name}"
+                   FontFamily="Raleway"
+                   TextColor="#454545"
+                   FontSize="16"
+                   HorizontalTextAlignment="Center"
+                   />
+                                </Frame>
+                            </StackLayout>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </ScrollView>
+
+            <StackLayout Margin="0, 0, 0, 30"
+             HeightRequest="60"
+             Orientation="Horizontal">
+                <Button x:Name="newGoal"
+            Text="+"
+            TextColor="White"
+            FontSize="24"
+            Clicked="New_Goal_Clicked"
+            BackgroundColor="#7766C6"
+            CornerRadius="50"
+            WidthRequest="60"
+            HorizontalOptions="CenterAndExpand"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
