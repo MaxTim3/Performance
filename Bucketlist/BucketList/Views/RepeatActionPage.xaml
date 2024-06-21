@@ -3,17 +3,59 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BucketList.Views.RepeatActionPage">
     <ContentPage.Content>
-        <StackLayout>
-            <Button Text="назад" Clicked="Back_Clicked"/>
-            <Button Text="редактировать" Clicked="Edit_Clicked"/>
-            <Button Text="удалить" Clicked="Delete_Clicked"/>
+        <StackLayout Padding="0"
+             Margin="0"
+             BackgroundColor="#1B1B39">
+            <AbsoluteLayout AbsoluteLayout.LayoutFlags="All"
+                     AbsoluteLayout.LayoutBounds="0, 0, 1, 1.5"
+                     Margin="0, 20, 0, 0">
+                <Image x:Name="BackBut"
+                AbsoluteLayout.LayoutFlags="All"
+                AbsoluteLayout.LayoutBounds="0.12, 0.06, 0.06, 0.6"/>
+                <Button Text="назад" 
+                 Clicked="Back_Clicked"
+                 AbsoluteLayout.LayoutFlags="All"
+                 AbsoluteLayout.LayoutBounds="0.1, 0.1, 0.1, 1"
+                 Opacity="0"/>
+                <Image x:Name="EditBut"
+                AbsoluteLayout.LayoutFlags="All"
+                AbsoluteLayout.LayoutBounds="0.76, 0.06, 0.06, 0.8"/>
+                <Button Text="редактировать" 
+                 Clicked="Edit_Clicked"
+                 AbsoluteLayout.LayoutFlags="All"
+                 AbsoluteLayout.LayoutBounds="0.75, 0.1, 0.1, 1"
+                 Opacity="0"/>
+                <Image x:Name="DeleteBut"
+                AbsoluteLayout.LayoutFlags="All"
+                AbsoluteLayout.LayoutBounds="0.91, 0.06, 0.06, 0.8"/>
+                <Button Text="удалить" 
+                 Clicked="Delete_Clicked"
+                 AbsoluteLayout.LayoutFlags="All"
+                 AbsoluteLayout.LayoutBounds="0.9, 0.1, 0.1, 1"
+                 Opacity="0"/>
 
+            </AbsoluteLayout>
+            <Label Text="{Binding Name}"
+           TextColor="White"
+           FontSize="27"
+           Margin="40, 15, 0, 0"/>
+
+            <Label Text="{Binding Number}"
+           TextColor="White"
+           FontSize="20"
+           Margin="40, 15, 0, 0"/>
+
+            <Button Text="✓" 
+            Clicked="Completed_Clicked"
+            BackgroundColor="#9483B7"
+            CornerRadius="25"
+            TextColor="White"
+            Margin="20, 0, 20, 30"/>
+        </StackLayout>
+
+        <!--
             <Label x:Name="count_number"
                    Text=""/>
-
-            <Label Text="{Binding Name}"/>
-            <Label Text="{Binding Number}"/>
-            <Button Text="Выполнено" Clicked="Completed_Clicked"/>
-        </StackLayout>
+        -->
     </ContentPage.Content>
 </ContentPage>

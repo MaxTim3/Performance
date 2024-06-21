@@ -17,6 +17,8 @@ namespace BucketList.Views
             InitializeComponent();
 
             BindingContext = new Checkpoint();
+
+            BackBut.Source = ImageSource.FromResource("BucketList.Images.Arrow_1.png");
         }
 
         private async void Save_Clicked(object sender, EventArgs e)

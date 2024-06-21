@@ -3409,23 +3409,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Тимофей\\.nuget\\packages\\": {},
+    "C:\\Users\\денис\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Тимофей\\source\\repos\\Performance\\BucketList\\BucketList\\BucketList.csproj",
+      "projectUniqueName": "C:\\Users\\денис\\Desktop\\last_dance\\Performance\\BucketList\\BucketList\\BucketList.csproj",
       "projectName": "BucketList",
-      "projectPath": "C:\\Users\\Тимофей\\source\\repos\\Performance\\BucketList\\BucketList\\BucketList.csproj",
-      "packagesPath": "C:\\Users\\Тимофей\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Тимофей\\source\\repos\\Performance\\BucketList\\BucketList\\obj\\",
+      "projectPath": "C:\\Users\\денис\\Desktop\\last_dance\\Performance\\BucketList\\BucketList\\BucketList.csproj",
+      "packagesPath": "C:\\Users\\денис\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\денис\\Desktop\\last_dance\\Performance\\BucketList\\BucketList\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Тимофей\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\денис\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3447,11 +3447,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -3488,7 +3483,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

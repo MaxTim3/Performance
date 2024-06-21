@@ -29,7 +29,7 @@ namespace BucketList
         public App()
         {
             InitializeComponent();
-            
+
             if (string.IsNullOrEmpty(UserName.Name))
             {
                 MainPage = new NavigationPage(new SignInPage());

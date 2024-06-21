@@ -4,100 +4,105 @@
              x:Class="BucketList.Views.HomePage">
 
     <StackLayout BackgroundColor="#1B1B39"
-                    Padding="0"
-                    Margin="0">
+                Padding="0"
+                Margin="0">
         <StackLayout Orientation="Horizontal"
-                     Padding="30"
-                     Spacing="15">
+                 Padding="0"
+                 Spacing="15">
             <Button BackgroundColor="#8B4C95"
-                     CornerRadius="30"
-                     HeightRequest="40"
-                     WidthRequest="40"/>
+                 CornerRadius="30"
+                 HeightRequest="40"
+                 WidthRequest="40"
+                Margin="14, 6, 0, 0"/>
             <Label x:Name="welcomeText" Text="Привет, Name!"
-               TextColor="#FFFFFF"
-               FontSize="25"
-               VerticalTextAlignment="Center"
-                   FontAttributes="Bold"/>
+           TextColor="#FFFFFF"
+           FontSize="25"
+           VerticalTextAlignment="Center"/>
         </StackLayout>
-        <StackLayout Margin="0, 5, 0, 0">
+        <StackLayout Orientation="Horizontal"
+                 HorizontalOptions="CenterAndExpand"
+                 Spacing="15"
+                 Margin="0">
+            <Button Text="Главная"
+                TextColor="White"
+                FontSize="16"
+                BackgroundColor="#1B1B39"/>
+            <Button Text="Категории"
+                Clicked="Category_Clicked"
+                BackgroundColor="#1B1B39"
+                TextColor="White"
+                FontSize="16"/>
+        </StackLayout>
+        <AbsoluteLayout AbsoluteLayout.LayoutFlags="SizeProportional"
+                    AbsoluteLayout.LayoutBounds="0, 0.3, 1, 0.01">
+            <BoxView AbsoluteLayout.LayoutFlags="All"
+                 AbsoluteLayout.LayoutBounds="0, 0.05, 1, 0.04"
+                 Color="#3A395A"/>
+            <BoxView Color="#7D296C"
+                 AbsoluteLayout.LayoutFlags="All"
+                 AbsoluteLayout.LayoutBounds="0.3, 0.04, 0.25, 0.12"/>
+        </AbsoluteLayout>
+        <StackLayout Margin="0, 0, 0, 0">
             <Frame CornerRadius="20"
-                   HeightRequest="350"
-                   Margin="20, 0, 20, 0">
+               HeightRequest="350"
+               Margin="20, 0, 20, 0">
                 <Frame.Background>
                     <LinearGradientBrush EndPoint="1,1"
-                                         StartPoint="0,0">
+                                     StartPoint="0,0">
                         <GradientStop Color="#922F8A"
-                          Offset="0.1" />
+                      Offset="0.1" />
                         <GradientStop Color="#C6414E"
-                                      Offset="0.55" />
+                                  Offset="0.55" />
                         <GradientStop Color="#F38C00"
-                          Offset="1.0" />
+                      Offset="1.0" />
                     </LinearGradientBrush>
                 </Frame.Background>
                 <StackLayout Orientation="Horizontal">
                     <Label TextColor="White"
+                   FontSize="30"
+                   FontAttributes="Bold"
+                   x:Name="TxtGreat"
+                   VerticalOptions="Center"/>
+                    <Label Text="0/0"
+                       TextColor="White"
                        FontSize="30"
                        FontAttributes="Bold"
-                       x:Name="TxtGreat"
-                       VerticalOptions="Center"/>
-                    <Label Text="0/0"
-                           TextColor="White"
-                           FontSize="30"
-                           FontAttributes="Bold"
-                           VerticalOptions="Center"
-                           Margin="60, 0, 0, 0"/>
+                       VerticalOptions="Center"
+                       Margin="60, 0, 0, 0"/>
                 </StackLayout>
 
             </Frame>
-            <Button Text="к категориям"
-Clicked="Category_Clicked"/>
 
         </StackLayout>
-    
+
         <ScrollView Padding="30">
             <CollectionView x:Name="goals"
-            SelectionMode="Single"
-            SelectionChanged="Goals_SelectionChanged"
-                            >
+        SelectionMode="Single"
+        SelectionChanged="Goals_SelectionChanged"
+                        >
                 <CollectionView.ItemsLayout>
                     <LinearItemsLayout Orientation="Vertical"
-                       ItemSpacing="10"/>
+                   ItemSpacing="10"/>
                 </CollectionView.ItemsLayout>
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <StackLayout>
                             <Frame BackgroundColor ="#E0DFFE"
-                       CornerRadius="15"
-                       HorizontalOptions="CenterAndExpand"
-                       WidthRequest="260">
+                   CornerRadius="15"
+                   HorizontalOptions="CenterAndExpand"
+                   WidthRequest="260">
                                 <Label Text="{Binding Name}"
-                           FontFamily="Raleway"
-                           TextColor="#454545"
-                           FontSize="16"
-                           HorizontalTextAlignment="Center"
-                           />
+                       FontFamily="Raleway"
+                       TextColor="#454545"
+                       FontSize="16"
+                       HorizontalTextAlignment="Center"
+                       />
                             </Frame>
                         </StackLayout>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>
         </ScrollView>
-        
-        
-        
-        <StackLayout Margin="0, 0, 0, 30"
-                     HeightRequest="60"
-                     Orientation="Horizontal">
-            <Button x:Name="newGoal"
-                    Text="+"
-                    TextColor="White"
-                    FontSize="24"
-                    Clicked="New_Goal_Clicked"
-                    BackgroundColor="#7766C6"
-                    CornerRadius="50"
-                    WidthRequest="60"
-                    HorizontalOptions="CenterAndExpand"/>
-        </StackLayout>
 
 
     </StackLayout>

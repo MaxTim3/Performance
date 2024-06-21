@@ -17,6 +17,9 @@ namespace BucketList.Views
             InitializeComponent();
             RepeatAction repeatAction = (RepeatAction)BindingContext;
             /*count_number.Text = repeatAction.Count.ToString() + "/" + repeatAction.Number.ToString();*/
+            BackBut.Source = ImageSource.FromResource("BucketList.Images.Arrow_1.png");
+            EditBut.Source = ImageSource.FromResource("BucketList.Images.Edit.png");
+            DeleteBut.Source = ImageSource.FromResource("BucketList.Images.Delete.png");
         }
 
         private async void Back_Clicked(object sender, EventArgs e)

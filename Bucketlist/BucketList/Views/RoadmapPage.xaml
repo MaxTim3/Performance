@@ -4,86 +4,109 @@
              x:Class="BucketList.Views.RoadmapPage">
     <ContentPage.Content>
         <AbsoluteLayout BackgroundColor="#1B1B39"
-                        Padding="0"
-                        Margin="0">
+                Padding="0"
+                Margin="0">
             <AbsoluteLayout AbsoluteLayout.LayoutBounds="0, 0, 1, 1"
-                            AbsoluteLayout.LayoutFlags="SizeProportional">
+                    AbsoluteLayout.LayoutFlags="SizeProportional">
                 <Image x:Name="BackBut"
-                       AbsoluteLayout.LayoutFlags="All"
-                       AbsoluteLayout.LayoutBounds="0.06, 0.03, 0.06, 0.06"/>
+               AbsoluteLayout.LayoutFlags="All"
+               AbsoluteLayout.LayoutBounds="0.06, 0.03, 0.06, 0.06"/>
                 <Button Text="Назад"
-                        Clicked="Back_Clicked"
-                        AbsoluteLayout.LayoutFlags="All"
-                        AbsoluteLayout.LayoutBounds="0.05, 0.03, 0.1, 0.06"
-                        Opacity="0"/>
-                <AbsoluteLayout AbsoluteLayout.LayoutBounds="0.5, 0.3, 0.8, 0.6"
-                                AbsoluteLayout.LayoutFlags="All">
+                Clicked="Back_Clicked"
+                AbsoluteLayout.LayoutFlags="All"
+                AbsoluteLayout.LayoutBounds="0.05, 0.03, 0.1, 0.06"
+                Opacity="0"/>
+                <AbsoluteLayout AbsoluteLayout.LayoutFlags="All"
+                AbsoluteLayout.LayoutBounds="0, 0.1, 1, 0.05">
+                    <Button Text="Задача"
+                            TextColor="White"
+                            FontSize="12"
+                            BackgroundColor="#1B1B39"
+                            AbsoluteLayout.LayoutFlags="All"
+                            AbsoluteLayout.LayoutBounds="0.2, 0.1, 0.4, 1"
+                            Clicked="Back_Clicked"/>
+                    <Button Text="Дорожная карта"
+                            TextColor="White"
+                            FontSize="12"
+                            BackgroundColor="#1B1B39"
+                            AbsoluteLayout.LayoutFlags="All"
+                            AbsoluteLayout.LayoutBounds="0.8, 0.1, 0.4, 1"/>
+                    <BoxView AbsoluteLayout.LayoutFlags="All"
+                             AbsoluteLayout.LayoutBounds="0, 0.95, 1, 0.02"
+                             BackgroundColor="#E9BD21"/>
+                    <BoxView AbsoluteLayout.LayoutFlags="All"
+                             AbsoluteLayout.LayoutBounds="0.76, 0.92, 0.3, 0.06"
+                             BackgroundColor="#EACB28"/>
+                </AbsoluteLayout>
+                <AbsoluteLayout AbsoluteLayout.LayoutBounds="0.5, 0.4, 0.8, 0.6"
+                        AbsoluteLayout.LayoutFlags="All">
                     <ScrollView>
                         <CollectionView x:Name="checkpoints"
-                                    SelectionMode="Single"
-                                    SelectionChanged="Checkpoints_SelectionChanged">
-                        <CollectionView.ItemsLayout>
-                            <LinearItemsLayout Orientation="Vertical"
-                                           ItemSpacing="50"/>
-                        </CollectionView.ItemsLayout>
+                            SelectionMode="Single"
+                            SelectionChanged="Checkpoints_SelectionChanged">
+                            <CollectionView.ItemsLayout>
+                                <LinearItemsLayout Orientation="Vertical"
+                                   ItemSpacing="50"/>
+                            </CollectionView.ItemsLayout>
                             <CollectionView.ItemTemplate>
-                                <DataTemplate>
+                                <DataTemplate >
                                     <StackLayout Orientation="Horizontal"
-                                                 Spacing="20"
-                                                 Padding="15, 0">
+                                         Spacing="20"
+                                         Padding="15, 0">
                                         <BoxView Color="#943271"
-                                                 CornerRadius="250"
-                                                 HeightRequest="60"
-                                                 WidthRequest="60"/>
+                                         CornerRadius="250"
+                                         HeightRequest="60"
+                                         WidthRequest="60"
+                                         x:Name="df"/>
                                         <Label Text="{Binding Name}"
-                                               FontFamily="Raleway"
-                                               TextColor="White"
-                                               FontSize="26"
-                                               Padding="0, 10, 0, 0"/>
+                                       FontFamily="Raleway"
+                                       TextColor="White"
+                                       FontSize="26"
+                                       Padding="0, 10, 0, 0"/>
                                     </StackLayout>
                                 </DataTemplate>
                             </CollectionView.ItemTemplate>
                         </CollectionView>
                     </ScrollView>
                 </AbsoluteLayout>
-                
-                
-                
-            <Button x:Name="newCheckpoint"
-                        Text=""
-                        TextColor="White"
-                        FontSize="20"
-                        Clicked="NewCheckpoint_Clicked"
-                        BackgroundColor="#7766C6"
-                        CornerRadius="250"
-                        Margin="40"
-                        HeightRequest="60"
-                        WidthRequest="60"
-                        AbsoluteLayout.LayoutFlags="PositionProportional"
-                        AbsoluteLayout.LayoutBounds="0.5, 1"/>
-            <Image x:Name="PlusBut"
-                   AbsoluteLayout.LayoutFlags="All"
-                   AbsoluteLayout.LayoutBounds="0.5, 0.938, 0.07, 0.06"/>
-            <Button x:Name="newCheckpoint1"
-                    Text=""
-                    TextColor="White"
-                    FontSize="20"
-                    Clicked="NewCheckpoint_Clicked"
-                    BackgroundColor="#7766C6"
-                    CornerRadius="250"
-                    Margin="40"
-                    HeightRequest="60"
-                    WidthRequest="60"
-                    AbsoluteLayout.LayoutFlags="PositionProportional"
-                    AbsoluteLayout.LayoutBounds="0.5, 1"
-                    Opacity="0"/>
+
+
+
+                <Button x:Name="newCheckpoint"
+                Text=""
+                TextColor="White"
+                FontSize="20"
+                Clicked="NewCheckpoint_Clicked"
+                BackgroundColor="#7766C6"
+                CornerRadius="250"
+                Margin="40"
+                HeightRequest="60"
+                WidthRequest="60"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                AbsoluteLayout.LayoutBounds="0.5, 1"/>
+                <Image x:Name="PlusBut"
+           AbsoluteLayout.LayoutFlags="All"
+           AbsoluteLayout.LayoutBounds="0.5, 0.938, 0.07, 0.06"/>
+                <Button x:Name="newCheckpoint1"
+            Text=""
+            TextColor="White"
+            FontSize="20"
+            Clicked="NewCheckpoint_Clicked"
+            BackgroundColor="#7766C6"
+            CornerRadius="250"
+            Margin="40"
+            HeightRequest="60"
+            WidthRequest="60"
+            AbsoluteLayout.LayoutFlags="PositionProportional"
+            AbsoluteLayout.LayoutBounds="0.5, 1"
+            Opacity="0"/>
 
             </AbsoluteLayout>
-            
 
-                
 
-            
+
+
+
         </AbsoluteLayout>
     </ContentPage.Content>
 </ContentPage>

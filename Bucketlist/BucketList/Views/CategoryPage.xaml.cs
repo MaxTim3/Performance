@@ -16,6 +16,10 @@ namespace BucketList.Views
         {
             InitializeComponent();
             App.BucketlistDB.GetGoalsAsync();
+
+            BackBut.Source = ImageSource.FromResource("BucketList.Images.Arrow_1.png");
+            EditBut.Source = ImageSource.FromResource("BucketList.Images.Edit.png");
+            DeleteBut.Source = ImageSource.FromResource("BucketList.Images.Delete.png");
         }
 
         protected override async void OnAppearing()

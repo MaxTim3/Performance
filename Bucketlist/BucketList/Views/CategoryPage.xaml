@@ -3,53 +3,88 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BucketList.Views.CategoryPage">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="{Binding Name}"/>
-            <Button Text="назад" Clicked="Back_Clicked"/>
-            <Button Text="редактировать" Clicked="Edit_Clicked"/>
-            <Button Text="удалить" Clicked="Delete_Clicked"/>
+        
+        <StackLayout BackgroundColor="#1B1B39"
+             Padding="0"
+             Margin="0">
+            <AbsoluteLayout AbsoluteLayout.LayoutFlags="All"
+                    AbsoluteLayout.LayoutBounds="0, 0, 1, 1.5"
+                    Margin="0, 20, 0, 0">
+                <Image x:Name="BackBut"
+               AbsoluteLayout.LayoutFlags="All"
+               AbsoluteLayout.LayoutBounds="0.12, 0.06, 0.06, 0.6"/>
+                <Button Text="назад" 
+                Clicked="Back_Clicked"
+                AbsoluteLayout.LayoutFlags="All"
+                AbsoluteLayout.LayoutBounds="0.1, 0.1, 0.1, 1"
+                Opacity="0"/>
+                <Label Text="{Binding Name}"
+                       TextColor="White"
+                       AbsoluteLayout.LayoutFlags="All"
+                       AbsoluteLayout.LayoutBounds="0.4, 0.1, 0.4, 0.9"
+                       FontSize="20"/>
+                <Image x:Name="EditBut"
+               AbsoluteLayout.LayoutFlags="All"
+               AbsoluteLayout.LayoutBounds="0.76, 0.06, 0.06, 0.8"/>
+                <Button Text="редактировать" 
+                Clicked="Edit_Clicked"
+                AbsoluteLayout.LayoutFlags="All"
+                AbsoluteLayout.LayoutBounds="0.75, 0.1, 0.1, 1"
+                Opacity="0"/>
+                <Image x:Name="DeleteBut"
+               AbsoluteLayout.LayoutFlags="All"
+               AbsoluteLayout.LayoutBounds="0.91, 0.06, 0.06, 0.8"/>
+                <Button Text="удалить" 
+                Clicked="Delete_Clicked"
+                AbsoluteLayout.LayoutFlags="All"
+                AbsoluteLayout.LayoutBounds="0.9, 0.1, 0.1, 1"
+                Opacity="0"/>
 
-            <ScrollView Padding="30">
-                <CollectionView x:Name="goals"
-    SelectionMode="Single"
-    SelectionChanged="Goals_SelectionChanged"
-                    >
-                    <CollectionView.ItemsLayout>
-                        <LinearItemsLayout Orientation="Vertical"
-               ItemSpacing="10"/>
-                    </CollectionView.ItemsLayout>
-                    <CollectionView.ItemTemplate>
-                        <DataTemplate>
-                            <StackLayout>
-                                <Frame BackgroundColor ="#E0DFFE"
-               CornerRadius="15"
-               HorizontalOptions="CenterAndExpand"
-               WidthRequest="260">
-                                    <Label Text="{Binding Name}"
-                   FontFamily="Raleway"
-                   TextColor="#454545"
-                   FontSize="16"
-                   HorizontalTextAlignment="Center"
-                   />
-                                </Frame>
-                            </StackLayout>
-                        </DataTemplate>
-                    </CollectionView.ItemTemplate>
-                </CollectionView>
-            </ScrollView>
+            </AbsoluteLayout>
+
+
+
+
+
+
+            <CollectionView x:Name="goals"
+                        SelectionMode="Single"
+                        SelectionChanged="Goals_SelectionChanged">
+                <CollectionView.ItemsLayout>
+                    <LinearItemsLayout Orientation="Vertical"
+       ItemSpacing="25"/>
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout>
+                            <Frame BackgroundColor ="#E0DFFE"
+                               CornerRadius="15"
+                               HorizontalOptions="CenterAndExpand"
+                               WidthRequest="290">
+                                <Label Text="{Binding Name}"
+                                   FontFamily="Raleway"
+                                   TextColor="#454545"
+                                   FontSize="16"
+                                   HorizontalTextAlignment="Center"/>
+                            </Frame>
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
 
             <StackLayout Margin="0, 0, 0, 30"
-             HeightRequest="60"
-             Orientation="Horizontal">
+                 HeightRequest="60"
+                 Orientation="Horizontal">
                 <Button x:Name="newGoal"
-            Text="+"
-            TextColor="White"
-            FontSize="24"
-            Clicked="New_Goal_Clicked"
-            BackgroundColor="#7766C6"
-            CornerRadius="50"
-            WidthRequest="60"
-            HorizontalOptions="CenterAndExpand"/>
+                Text="+"
+                TextColor="White"
+                FontSize="24"
+                Clicked="New_Goal_Clicked"
+                BackgroundColor="#7766C6"
+                CornerRadius="50"
+                WidthRequest="60"
+                HorizontalOptions="CenterAndExpand"/>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>

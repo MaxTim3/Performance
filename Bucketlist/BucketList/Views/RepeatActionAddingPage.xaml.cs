@@ -17,6 +17,8 @@ namespace BucketList.Views
             InitializeComponent();
 
             BindingContext = new RepeatAction();
+
+            BackBut.Source = ImageSource.FromResource("BucketList.Images.Arrow_1.png");
         }
 
         private async void Back_Clicked(object sender, EventArgs e)

@@ -3,17 +3,70 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BucketList.Views.CheckpointAddingPage">
     <ContentPage.Content>
-        <StackLayout>
-            <Button Text="Назад"
-    Clicked="Back_Clicked"/>
-            <Editor Placeholder="Название задачи"
-        Text="{Binding Name}"/>
-            <Editor Placeholder="Дата выполнения задачи"
-        Text="{Binding Date}"/>
-            <Editor Placeholder="Описание задачи"
-        Text="{Binding Description}"/>
-            <Button Text="Сохранить"
-        Clicked="Save_Clicked"/>
+        <StackLayout Padding="0"
+             Margin="0"
+             BackgroundColor="#1B1B39">
+            <AbsoluteLayout AbsoluteLayout.LayoutFlags="SizeProportional"
+                    AbsoluteLayout.LayoutBounds="0, 0, 1, 0.4"
+                    Margin="0, 15, 0, 0">
+                <Image x:Name="BackBut"
+               AbsoluteLayout.LayoutBounds="0.07, 0.12, 0.06, 0.8"
+               AbsoluteLayout.LayoutFlags="All"/>
+                <Button Text="Назад"
+                Clicked="Back_Clicked"
+                AbsoluteLayout.LayoutFlags="All"
+                AbsoluteLayout.LayoutBounds="0.06, 0.12, 0.1, 1"
+                Opacity="0"/>
+                <Button Text="Сохранить"
+                Clicked="Save_Clicked"
+                TextColor="#B06FBB"
+                BackgroundColor="#1B1B39"
+                FontSize="16"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                AbsoluteLayout.LayoutBounds="0.99, 0.1"/>
+            </AbsoluteLayout>
+
+
+            <Label Text="Редактирование чекпоинта"
+           TextColor="White"
+           FontSize="27"
+           Margin="20, 15, 0, 0"/>
+
+            <Label Text="Название чекпоинта:"
+           TextColor="#E0DFFE"
+           FontSize="23"
+           Margin="20, 50, 0 ,0"/>
+            <Editor Placeholder="Введите название чекпоинта"
+            Text="{Binding Name}"
+            PlaceholderColor="#B9B9B9"
+            Margin="20, 0, 20, 0"
+            TextColor="#B9B9B9"/>
+            <StackLayout Orientation="Horizontal"
+                 Spacing="10"
+                 Margin="20, 50, 0 ,0"
+                 Padding="0">
+                <Label Text="Дата выполнения:"
+           TextColor="#E0DFFE"
+           FontSize="20"/>
+                <Editor Text="{Binding Date}"
+                PlaceholderColor="#B9B9B9"
+                TextColor="#B9B9B9"
+                WidthRequest="190"/>
+
+            </StackLayout>
+
+            <Label Text="Описание:"
+           TextColor="#E0DFFE"
+           FontSize="23"
+           Margin="20, 50, 0 ,0"/>
+
+            <Editor Placeholder="Введите описание чекпоинта"
+            Text="{Binding Description}"
+            Margin="20, 20, 20 ,0"
+            TextColor="#E0DFFE"
+            PlaceholderColor="#B9B9B9"
+            HeightRequest="100"/>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

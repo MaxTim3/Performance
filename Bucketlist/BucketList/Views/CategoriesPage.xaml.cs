@@ -28,6 +28,10 @@ namespace BucketList.Views
         {
             await Navigation.PopModalAsync();
         }
+        private async void Home_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new HomePage());
+        }
 
         private async void New_Category_Clicked(object sender, EventArgs e)
         {

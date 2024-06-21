@@ -3,38 +3,109 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BucketList.Views.CategoriesPage">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Категории"/>
-            <Button Text="назад" Clicked="Back_Clicked"/>
-        <Button Text="+" Clicked="New_Category_Clicked"/>
-        <ScrollView Padding="30">
-            <CollectionView x:Name="categories"
-SelectionMode="Single"
-SelectionChanged="Categories_SelectionChanged"
-                >
-                <CollectionView.ItemsLayout>
-                    <LinearItemsLayout Orientation="Vertical"
-           ItemSpacing="10"/>
-                </CollectionView.ItemsLayout>
-                <CollectionView.ItemTemplate>
-                    <DataTemplate>
-                        <StackLayout>
-                            <Frame BackgroundColor ="#E0DFFE"
-           CornerRadius="15"
-           HorizontalOptions="CenterAndExpand"
-           WidthRequest="260">
-                                <Label Text="{Binding Name}"
-               FontFamily="Raleway"
-               TextColor="#454545"
-               FontSize="16"
-               HorizontalTextAlignment="Center"
-               />
-                            </Frame>
-                        </StackLayout>
-                    </DataTemplate>
-                </CollectionView.ItemTemplate>
-            </CollectionView>
-        </ScrollView>
+        <StackLayout Margin="0"
+              Padding="0"
+              BackgroundColor="#1B1B39">
+            <StackLayout Orientation="Horizontal"
+      Padding="0"
+      Spacing="15">
+                <Button BackgroundColor="#8B4C95"
+      CornerRadius="30"
+      HeightRequest="40"
+      WidthRequest="40"
+     Margin="14, 6, 0, 0"/>
+                <Label x:Name="welcomeText" Text="Категории"
+TextColor="#FFFFFF"
+FontSize="25"
+VerticalTextAlignment="Center"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal"
+      HorizontalOptions="CenterAndExpand"
+      Spacing="15"
+      Margin="0">
+                <Button Text="Главная"
+                 TextColor="White"
+                 FontSize="16"
+     BackgroundColor="#1B1B39"
+                 Clicked="Home_Clicked"/>
+                <Button Text="Категории"
+                 BackgroundColor="#1B1B39"
+                 TextColor="White"
+                 FontSize="16"/>
+            </StackLayout>
+            <AbsoluteLayout AbsoluteLayout.LayoutFlags="SizeProportional"
+         AbsoluteLayout.LayoutBounds="0, 0.15, 1, 0.01">
+                <BoxView AbsoluteLayout.LayoutFlags="All"
+      AbsoluteLayout.LayoutBounds="0, 0.05, 1, 0.02"
+      Color="#3A395A"/>
+                <BoxView Color="#7D296C"
+      AbsoluteLayout.LayoutFlags="All"
+      AbsoluteLayout.LayoutBounds="0.69, 0.04, 0.25, 0.07"/>
+            </AbsoluteLayout>
+
+            <ScrollView>
+                <StackLayout>
+                    <Frame WidthRequest="160"
+            HeightRequest="160"
+            CornerRadius="20"
+            Padding="0"
+            BackgroundColor ="#F9B0C3"
+            HorizontalOptions="CenterAndExpand">
+                        <Button Text="+" 
+                 Clicked="New_Category_Clicked"
+                 BackgroundColor="#F9B0C3"
+                         TextColor="White"/>
+                    </Frame>
+                    <Frame WidthRequest="160"
+                HeightRequest="160"
+                HorizontalOptions="CenterAndExpand"
+                CornerRadius="20"
+                Padding="0"
+                BackgroundColor ="#DB5A81">
+                        <Button Text="Другое"
+                     BackgroundColor="#DB5A81"
+                         TextColor="White"/>
+                    </Frame>
+                    <CollectionView x:Name="categories"
+                         SelectionMode="Single"
+                         SelectionChanged="Categories_SelectionChanged">
+                        <CollectionView.ItemsLayout>
+                            <LinearItemsLayout Orientation="Vertical"
+                                    ItemSpacing="6"
+                                    />
+                        </CollectionView.ItemsLayout>
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <StackLayout HorizontalOptions="CenterAndExpand"
+                                  HeightRequest="150">
+                                    <Frame CornerRadius="20"
+                                WidthRequest="120"
+                                HeightRequest="150"
+                                HorizontalOptions="CenterAndExpand"
+                                BackgroundColor="#7766C6">
+                                        <Label Text="{Binding Name}"
+                                    FontFamily="Raleway"
+                                    TextColor="White"
+                                    FontSize="18"
+                                    VerticalTextAlignment="Center"
+                                    HorizontalTextAlignment="Center"/>
+                                    </Frame>
+                                </StackLayout>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </StackLayout>
+
+
+
+
+
+
+            </ScrollView>
+
+
+
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
