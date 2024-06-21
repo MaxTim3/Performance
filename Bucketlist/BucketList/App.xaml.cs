@@ -4,6 +4,8 @@ using Xamarin.Forms.Xaml;
 using BucketList.Data;
 using System.IO;
 using BucketList.Views;
+using System.Reflection;
+using BucketList.Models;
 
 namespace BucketList
 {
@@ -16,8 +18,10 @@ namespace BucketList
             {
                 if (bucketlistDB == null)
                 {
-                    bucketlistDB = new BucketlistDB(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Bucketlist.db"));
+                    string dbPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Bucketlist.db");
+                    bucketlistDB = new BucketlistDB(dbPath);
                 }
+                
                 return bucketlistDB;
             }
         }
@@ -25,8 +29,16 @@ namespace BucketList
         public App()
         {
             InitializeComponent();
+            
+            if (string.IsNullOrEmpty(UserName.Name))
+            {
+                MainPage = new NavigationPage(new SignInPage());
+            }
 
-            MainPage = new NavigationPage(new HomePage());
+            else 
+            {
+                MainPage = new NavigationPage(new HomePage());
+            }
         }
 
         protected override void OnStart()

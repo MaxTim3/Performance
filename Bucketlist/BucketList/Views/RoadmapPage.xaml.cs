@@ -15,7 +15,7 @@ namespace BucketList.Views
         public RoadmapPage()
         {
             InitializeComponent();
-
+            
             BackBut.Source = ImageSource.FromResource("BucketList.Images.Arrow_1.png");
             PlusBut.Source = ImageSource.FromResource("BucketList.Images.Plus.png");
         }

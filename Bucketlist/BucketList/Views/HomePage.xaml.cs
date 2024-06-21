@@ -16,12 +16,13 @@ namespace BucketList.Views
         public HomePage()
         {
             InitializeComponent();
-
+            welcomeText.Text = "Привет, " + UserName.Name + "!";
             TxtGreat.Text = "Отлично! \n" + "Так держать!";
         }
         protected override async void OnAppearing()
         {
-            goals.ItemsSource = await App.BucketlistDB.GetGoalsAsync();
+
+            goals.ItemsSource = await App.BucketlistDB.GetAllGoalsAsync();
 
             base.OnAppearing();
         }

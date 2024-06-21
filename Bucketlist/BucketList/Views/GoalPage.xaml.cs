@@ -51,6 +51,8 @@ namespace BucketList.Views
 
         private async void Completed_Clicked(object sender, EventArgs e)
         {
+            Goal goal = (Goal)BindingContext;
+            goal.IsCompleted = true;
             await Navigation.PopModalAsync();
         }
    

@@ -46,10 +46,16 @@ C:\Users\Тимофей\source\repos\Performance\BucketList\BucketList\bin\Relea
 C:\Users\Тимофей\source\repos\Performance\BucketList\BucketList\obj\Release\netstandard2.0\BucketList.csproj.AssemblyReference.cache
 C:\Users\Тимофей\source\repos\Performance\BucketList\BucketList\obj\Release\netstandard2.0\BucketList.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Тимофей\source\repos\Performance\BucketList\BucketList\obj\Release\netstandard2.0\App.xaml.g.cs
+C:\Users\Тимофей\source\repos\Performance\BucketList\BucketList\obj\Release\netstandard2.0\Views\CategoriesPage.xaml.g.cs
+C:\Users\Тимофей\source\repos\Performance\BucketList\BucketList\obj\Release\netstandard2.0\Views\CategoryAddingPage.xaml.g.cs
+C:\Users\Тимофей\source\repos\Performance\BucketList\BucketList\obj\Release\netstandard2.0\Views\CategoryPage.xaml.g.cs
 C:\Users\Тимофей\source\repos\Performance\BucketList\BucketList\obj\Release\netstandard2.0\Views\CheckpointAddingPage.xaml.g.cs
+C:\Users\Тимофей\source\repos\Performance\BucketList\BucketList\obj\Release\netstandard2.0\Views\CheckpointPage.xaml.g.cs
 C:\Users\Тимофей\source\repos\Performance\BucketList\BucketList\obj\Release\netstandard2.0\Views\GoalAddingPage.xaml.g.cs
 C:\Users\Тимофей\source\repos\Performance\BucketList\BucketList\obj\Release\netstandard2.0\Views\GoalPage.xaml.g.cs
 C:\Users\Тимофей\source\repos\Performance\BucketList\BucketList\obj\Release\netstandard2.0\Views\HomePage.xaml.g.cs
+C:\Users\Тимофей\source\repos\Performance\BucketList\BucketList\obj\Release\netstandard2.0\Views\RepeatActionAddingPage.xaml.g.cs
+C:\Users\Тимофей\source\repos\Performance\BucketList\BucketList\obj\Release\netstandard2.0\Views\RepeatActionPage.xaml.g.cs
 C:\Users\Тимофей\source\repos\Performance\BucketList\BucketList\obj\Release\netstandard2.0\Views\RoadmapPage.xaml.g.cs
 C:\Users\Тимофей\source\repos\Performance\BucketList\BucketList\obj\Release\netstandard2.0\Views\SignInPage.xaml.g.cs
 C:\Users\Тимофей\source\repos\Performance\BucketList\BucketList\obj\Release\netstandard2.0\BucketList.AssemblyInfoInputs.cache
@@ -60,9 +66,3 @@ C:\Users\Тимофей\source\repos\Performance\BucketList\BucketList\obj\Relea
 C:\Users\Тимофей\source\repos\Performance\BucketList\BucketList\obj\Release\netstandard2.0\BucketList.dll
 C:\Users\Тимофей\source\repos\Performance\BucketList\BucketList\obj\Release\netstandard2.0\refint\BucketList.dll
 C:\Users\Тимофей\source\repos\Performance\BucketList\BucketList\obj\Release\netstandard2.0\BucketList.pdb
-C:\Users\Тимофей\source\repos\Performance\BucketList\BucketList\obj\Release\netstandard2.0\Views\CategoriesPage.xaml.g.cs
-C:\Users\Тимофей\source\repos\Performance\BucketList\BucketList\obj\Release\netstandard2.0\Views\CategoryAddingPage.xaml.g.cs
-C:\Users\Тимофей\source\repos\Performance\BucketList\BucketList\obj\Release\netstandard2.0\Views\CategoryPage.xaml.g.cs
-C:\Users\Тимофей\source\repos\Performance\BucketList\BucketList\obj\Release\netstandard2.0\Views\CheckpointPage.xaml.g.cs
-C:\Users\Тимофей\source\repos\Performance\BucketList\BucketList\obj\Release\netstandard2.0\Views\RepeatActionAddingPage.xaml.g.cs
-C:\Users\Тимофей\source\repos\Performance\BucketList\BucketList\obj\Release\netstandard2.0\Views\RepeatActionPage.xaml.g.cs

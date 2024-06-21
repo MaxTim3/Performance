@@ -15,11 +15,12 @@ namespace BucketList.Views
         public CategoryPage()
         {
             InitializeComponent();
+            App.BucketlistDB.GetGoalsAsync();
         }
 
         protected override async void OnAppearing()
         {
-            goals.ItemsSource = await App.BucketlistDB.GetGoalsAsync();
+            goals.ItemsSource =  await App.BucketlistDB.GetGoalsAsync();
 
             base.OnAppearing();
         }

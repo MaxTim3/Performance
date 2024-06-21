@@ -32,6 +32,7 @@ namespace BucketList.Views
                 await App.BucketlistDB.SaveRepeatActionAsync(repeatAction);
             }
             await Navigation.PopModalAsync();
+    
         }
     }
 }

@@ -15,6 +15,8 @@ namespace BucketList.Views
         public RepeatActionPage()
         {
             InitializeComponent();
+            RepeatAction repeatAction = (RepeatAction)BindingContext;
+            /*count_number.Text = repeatAction.Count.ToString() + "/" + repeatAction.Number.ToString();*/
         }
 
         private async void Back_Clicked(object sender, EventArgs e)
@@ -39,6 +41,12 @@ namespace BucketList.Views
 
         private async void Completed_Clicked(object sender, EventArgs e)
         {
+            RepeatAction repeatAction = (RepeatAction)BindingContext;
+            repeatAction.Number -= 1;
+            if (repeatAction.Number == 0) 
+            {
+                repeatAction.IsComlpeted = true;
+            }
             await Navigation.PopModalAsync();
         }
     }

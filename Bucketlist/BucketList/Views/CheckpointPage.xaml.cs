@@ -60,6 +60,9 @@ namespace BucketList.Views
 
         private async void Completed_Clicked(object sender, EventArgs e)
         {
+            Checkpoint checkpoint = (Checkpoint)BindingContext;
+            
+            checkpoint.IsCompleted = true;
             await Navigation.PopModalAsync();
         }
     }

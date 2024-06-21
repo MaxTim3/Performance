@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BucketList.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -25,6 +26,7 @@ namespace BucketList.Views
             else
             {
                 errorText.Text = "";
+                UserName.Name = userEntry.Text;
             }
             await Navigation.PushModalAsync(new HomePage());
 

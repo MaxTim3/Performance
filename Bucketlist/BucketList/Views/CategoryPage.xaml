@@ -4,6 +4,7 @@
              x:Class="BucketList.Views.CategoryPage">
     <ContentPage.Content>
         <StackLayout>
+            <Label Text="{Binding Name}"/>
             <Button Text="назад" Clicked="Back_Clicked"/>
             <Button Text="редактировать" Clicked="Edit_Clicked"/>
             <Button Text="удалить" Clicked="Delete_Clicked"/>

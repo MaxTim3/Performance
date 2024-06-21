@@ -4,7 +4,8 @@
              x:Class="BucketList.Views.CategoriesPage">
     <ContentPage.Content>
         <StackLayout>
-        <Button Text="назад" Clicked="Back_Clicked"/>
+            <Label Text="Категории"/>
+            <Button Text="назад" Clicked="Back_Clicked"/>
         <Button Text="+" Clicked="New_Category_Clicked"/>
         <ScrollView Padding="30">
             <CollectionView x:Name="categories"

@@ -6,10 +6,10 @@
         <StackLayout>
             <Button Text="Назад"
 Clicked="Back_Clicked"/>
-            <Editor Placeholder="Название задачи"
+            <Editor Placeholder="Название действия"
     Text="{Binding Name}"/>
             <Editor Placeholder="Количество повторений"
-    Text="{Binding Count}"/>
+    Text="{Binding Number}"/>
             <Button Text="Сохранить"
     Clicked="Save_Clicked"/>
         </StackLayout>

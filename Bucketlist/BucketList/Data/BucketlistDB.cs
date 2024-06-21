@@ -2,6 +2,7 @@
 using SQLite;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -9,7 +10,7 @@ namespace BucketList.Data
 {
     public class BucketlistDB
     {
-        readonly SQLiteAsyncConnection db;
+        SQLiteAsyncConnection db;
 
         public BucketlistDB(string connectionString)
         {
@@ -47,10 +48,13 @@ namespace BucketList.Data
         {
             return db.DeleteAsync(category);
         }
-
+        public Task<List<Goal>> GetGoalsAsync()
+        {
+            return db.Table<Goal>().ToListAsync();
+        }
 
         //Goal
-        public Task<List<Goal>> GetGoalsAsync()
+        public Task<List<Goal>> GetAllGoalsAsync()
         {
             return db.Table<Goal>().ToListAsync();
         }

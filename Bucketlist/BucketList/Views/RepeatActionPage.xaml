@@ -7,8 +7,12 @@
             <Button Text="назад" Clicked="Back_Clicked"/>
             <Button Text="редактировать" Clicked="Edit_Clicked"/>
             <Button Text="удалить" Clicked="Delete_Clicked"/>
+
+            <Label x:Name="count_number"
+                   Text=""/>
+
             <Label Text="{Binding Name}"/>
-            <Label Text="{Binding Count}"/>
+            <Label Text="{Binding Number}"/>
             <Button Text="Выполнено" Clicked="Completed_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
