@@ -12,10 +12,9 @@ namespace BucketList.Models
         [PrimaryKey, AutoIncrement]
         public int Id { get; set; }
         public string Name { get; set; }
-        public int Count { get; set; }
         public int Number {  get; set; }
 
-        public bool IsComlpeted { get; set; }
+        public bool IsCompleted { get; set; }
 
 
         [ForeignKey(typeof(Checkpoint))]

@@ -3,40 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\\u0422\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\Performance\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{409A80B6-DB0F-4B87-8572-F34C1C7F5EFD}|BucketList\\BucketList\\BucketList.csproj|c:\\users\\\u0442\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\performance\\bucketlist\\bucketlist\\views\\homepage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{409A80B6-DB0F-4B87-8572-F34C1C7F5EFD}|BucketList\\BucketList\\BucketList.csproj|solutionrelative:bucketlist\\bucketlist\\views\\homepage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{409A80B6-DB0F-4B87-8572-F34C1C7F5EFD}|BucketList\\BucketList\\BucketList.csproj|c:\\users\\\u0442\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\performance\\bucketlist\\bucketlist\\views\\checkpointpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{409A80B6-DB0F-4B87-8572-F34C1C7F5EFD}|BucketList\\BucketList\\BucketList.csproj|solutionrelative:bucketlist\\bucketlist\\views\\checkpointpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{409A80B6-DB0F-4B87-8572-F34C1C7F5EFD}|BucketList\\BucketList\\BucketList.csproj|c:\\users\\\u0442\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\performance\\bucketlist\\bucketlist\\views\\categorypage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{409A80B6-DB0F-4B87-8572-F34C1C7F5EFD}|BucketList\\BucketList\\BucketList.csproj|solutionrelative:bucketlist\\bucketlist\\views\\categorypage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{409A80B6-DB0F-4B87-8572-F34C1C7F5EFD}|BucketList\\BucketList\\BucketList.csproj|c:\\users\\\u0442\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\performance\\bucketlist\\bucketlist\\views\\roadmappage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{409A80B6-DB0F-4B87-8572-F34C1C7F5EFD}|BucketList\\BucketList\\BucketList.csproj|solutionrelative:bucketlist\\bucketlist\\views\\roadmappage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{409A80B6-DB0F-4B87-8572-F34C1C7F5EFD}|BucketList\\BucketList\\BucketList.csproj|c:\\users\\\u0442\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\performance\\bucketlist\\bucketlist\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{409A80B6-DB0F-4B87-8572-F34C1C7F5EFD}|BucketList\\BucketList\\BucketList.csproj|solutionrelative:bucketlist\\bucketlist\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{409A80B6-DB0F-4B87-8572-F34C1C7F5EFD}|BucketList\\BucketList\\BucketList.csproj|c:\\users\\\u0442\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\performance\\bucketlist\\bucketlist\\views\\goalpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{409A80B6-DB0F-4B87-8572-F34C1C7F5EFD}|BucketList\\BucketList\\BucketList.csproj|solutionrelative:bucketlist\\bucketlist\\views\\goalpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{409A80B6-DB0F-4B87-8572-F34C1C7F5EFD}|BucketList\\BucketList\\BucketList.csproj|c:\\users\\\u0442\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\performance\\bucketlist\\bucketlist\\views\\checkpointpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{409A80B6-DB0F-4B87-8572-F34C1C7F5EFD}|BucketList\\BucketList\\BucketList.csproj|solutionrelative:bucketlist\\bucketlist\\views\\checkpointpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{409A80B6-DB0F-4B87-8572-F34C1C7F5EFD}|BucketList\\BucketList\\BucketList.csproj|c:\\users\\\u0442\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\performance\\bucketlist\\bucketlist\\views\\repeatactionpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{409A80B6-DB0F-4B87-8572-F34C1C7F5EFD}|BucketList\\BucketList\\BucketList.csproj|solutionrelative:bucketlist\\bucketlist\\views\\repeatactionpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{409A80B6-DB0F-4B87-8572-F34C1C7F5EFD}|BucketList\\BucketList\\BucketList.csproj|c:\\users\\\u0442\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\performance\\bucketlist\\bucketlist\\models\\checkpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{409A80B6-DB0F-4B87-8572-F34C1C7F5EFD}|BucketList\\BucketList\\BucketList.csproj|solutionrelative:bucketlist\\bucketlist\\models\\checkpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{409A80B6-DB0F-4B87-8572-F34C1C7F5EFD}|BucketList\\BucketList\\BucketList.csproj|c:\\users\\\u0442\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\performance\\bucketlist\\bucketlist\\models\\repeataction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{409A80B6-DB0F-4B87-8572-F34C1C7F5EFD}|BucketList\\BucketList\\BucketList.csproj|solutionrelative:bucketlist\\bucketlist\\models\\repeataction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{409A80B6-DB0F-4B87-8572-F34C1C7F5EFD}|BucketList\\BucketList\\BucketList.csproj|c:\\users\\\u0442\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\performance\\bucketlist\\bucketlist\\booltocolorconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{409A80B6-DB0F-4B87-8572-F34C1C7F5EFD}|BucketList\\BucketList\\BucketList.csproj|solutionrelative:bucketlist\\bucketlist\\booltocolorconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{409A80B6-DB0F-4B87-8572-F34C1C7F5EFD}|BucketList\\BucketList\\BucketList.csproj|c:\\users\\\u0442\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\performance\\bucketlist\\bucketlist\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{409A80B6-DB0F-4B87-8572-F34C1C7F5EFD}|BucketList\\BucketList\\BucketList.csproj|solutionrelative:bucketlist\\bucketlist\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{409A80B6-DB0F-4B87-8572-F34C1C7F5EFD}|BucketList\\BucketList\\BucketList.csproj|c:\\users\\\u0442\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\performance\\bucketlist\\bucketlist\\data\\bucketlistdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{409A80B6-DB0F-4B87-8572-F34C1C7F5EFD}|BucketList\\BucketList\\BucketList.csproj|solutionrelative:bucketlist\\bucketlist\\data\\bucketlistdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{409A80B6-DB0F-4B87-8572-F34C1C7F5EFD}|BucketList\\BucketList\\BucketList.csproj|c:\\users\\\u0442\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\performance\\bucketlist\\bucketlist\\models\\repeataction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{409A80B6-DB0F-4B87-8572-F34C1C7F5EFD}|BucketList\\BucketList\\BucketList.csproj|solutionrelative:bucketlist\\bucketlist\\models\\repeataction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{409A80B6-DB0F-4B87-8572-F34C1C7F5EFD}|BucketList\\BucketList\\BucketList.csproj|c:\\users\\\u0442\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\performance\\bucketlist\\bucketlist\\models\\goal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{409A80B6-DB0F-4B87-8572-F34C1C7F5EFD}|BucketList\\BucketList\\BucketList.csproj|solutionrelative:bucketlist\\bucketlist\\models\\goal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{409A80B6-DB0F-4B87-8572-F34C1C7F5EFD}|BucketList\\BucketList\\BucketList.csproj|c:\\users\\\u0442\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\performance\\bucketlist\\bucketlist\\models\\checkpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{409A80B6-DB0F-4B87-8572-F34C1C7F5EFD}|BucketList\\BucketList\\BucketList.csproj|solutionrelative:bucketlist\\bucketlist\\models\\checkpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{409A80B6-DB0F-4B87-8572-F34C1C7F5EFD}|BucketList\\BucketList\\BucketList.csproj|c:\\users\\\u0442\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\performance\\bucketlist\\bucketlist\\data\\bucketlistdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{409A80B6-DB0F-4B87-8572-F34C1C7F5EFD}|BucketList\\BucketList\\BucketList.csproj|solutionrelative:bucketlist\\bucketlist\\data\\bucketlistdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,32 +54,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\\u0422\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\Performance\\Bucketlist\\BucketList\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Bucketlist\\BucketList\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\\u0422\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\Performance\\Bucketlist\\BucketList\\Models\\Category.cs",
+              "RelativeToolTip": "Bucketlist\\BucketList\\Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T22:53:01.833Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "RepeatAction.cs",
               "DocumentMoniker": "C:\\Users\\\u0422\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\Performance\\Bucketlist\\BucketList\\Models\\RepeatAction.cs",
               "RelativeDocumentMoniker": "Bucketlist\\BucketList\\Models\\RepeatAction.cs",
               "ToolTip": "C:\\Users\\\u0422\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\Performance\\Bucketlist\\BucketList\\Models\\RepeatAction.cs",
               "RelativeToolTip": "Bucketlist\\BucketList\\Models\\RepeatAction.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAfAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T03:05:35.849Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Checkpoint.cs",
-              "DocumentMoniker": "C:\\Users\\\u0422\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\Performance\\Bucketlist\\BucketList\\Models\\Checkpoint.cs",
-              "RelativeDocumentMoniker": "Bucketlist\\BucketList\\Models\\Checkpoint.cs",
-              "ToolTip": "C:\\Users\\\u0422\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\Performance\\Bucketlist\\BucketList\\Models\\Checkpoint.cs",
-              "RelativeToolTip": "Bucketlist\\BucketList\\Models\\Checkpoint.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T02:55:20.416Z",
+              "WhenOpened": "2024-06-21T22:53:07.198Z",
               "IsPinned": true
             },
             {
@@ -82,50 +90,62 @@
               "RelativeDocumentMoniker": "Bucketlist\\BucketList\\Models\\Goal.cs",
               "ToolTip": "C:\\Users\\\u0422\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\Performance\\Bucketlist\\BucketList\\Models\\Goal.cs",
               "RelativeToolTip": "Bucketlist\\BucketList\\Models\\Goal.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABsAAAA7AAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T03:02:44.187Z",
+              "WhenOpened": "2024-06-21T22:53:05.274Z",
               "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\\u0422\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\Performance\\Bucketlist\\BucketList\\Models\\Category.cs",
-              "RelativeDocumentMoniker": "Bucketlist\\BucketList\\Models\\Category.cs",
-              "ToolTip": "C:\\Users\\\u0422\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\Performance\\Bucketlist\\BucketList\\Models\\Category.cs",
-              "RelativeToolTip": "Bucketlist\\BucketList\\Models\\Category.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAvAAAA",
+              "DocumentIndex": 9,
+              "Title": "Checkpoint.cs",
+              "DocumentMoniker": "C:\\Users\\\u0422\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\Performance\\Bucketlist\\BucketList\\Models\\Checkpoint.cs",
+              "RelativeDocumentMoniker": "Bucketlist\\BucketList\\Models\\Checkpoint.cs",
+              "ToolTip": "C:\\Users\\\u0422\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\Performance\\Bucketlist\\BucketList\\Models\\Checkpoint.cs",
+              "RelativeToolTip": "Bucketlist\\BucketList\\Models\\Checkpoint.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T02:55:00.128Z",
+              "WhenOpened": "2024-06-21T22:53:03.899Z",
               "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "BucketlistDB.cs",
               "DocumentMoniker": "C:\\Users\\\u0422\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\Performance\\Bucketlist\\BucketList\\Data\\BucketlistDB.cs",
               "RelativeDocumentMoniker": "Bucketlist\\BucketList\\Data\\BucketlistDB.cs",
               "ToolTip": "C:\\Users\\\u0422\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\Performance\\Bucketlist\\BucketList\\Data\\BucketlistDB.cs",
               "RelativeToolTip": "Bucketlist\\BucketList\\Data\\BucketlistDB.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAYwDQAAAAyAAAA",
+              "ViewState": "AQIAAC4AAAAAAAAAAAA0wAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T10:01:31.265Z",
+              "WhenOpened": "2024-06-22T00:24:16.124Z",
               "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\\u0422\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\Performance\\Bucketlist\\BucketList\\App.xaml.cs",
               "RelativeDocumentMoniker": "Bucketlist\\BucketList\\App.xaml.cs",
               "ToolTip": "C:\\Users\\\u0422\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\Performance\\Bucketlist\\BucketList\\App.xaml.cs",
               "RelativeToolTip": "Bucketlist\\BucketList\\App.xaml.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAACcAAAAQAAAA",
+              "ViewState": "AQIAABwAAAAAAAAAAAAgwCgAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T11:58:56.502Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-22T00:39:13.862Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BoolToColorConverter.cs",
+              "DocumentMoniker": "C:\\Users\\\u0422\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\Performance\\Bucketlist\\BucketList\\BoolToColorConverter.cs",
+              "RelativeDocumentMoniker": "Bucketlist\\BucketList\\BoolToColorConverter.cs",
+              "ToolTip": "C:\\Users\\\u0422\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\Performance\\Bucketlist\\BucketList\\BoolToColorConverter.cs",
+              "RelativeToolTip": "Bucketlist\\BucketList\\BoolToColorConverter.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T23:26:48.779Z",
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -133,40 +153,55 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomePage.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0422\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\Performance\\Bucketlist\\BucketList\\Views\\HomePage.xaml",
+              "RelativeDocumentMoniker": "Bucketlist\\BucketList\\Views\\HomePage.xaml",
+              "ToolTip": "C:\\Users\\\u0422\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\Performance\\Bucketlist\\BucketList\\Views\\HomePage.xaml",
+              "RelativeToolTip": "Bucketlist\\BucketList\\Views\\HomePage.xaml",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAAF4AAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-21T23:33:34.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "GoalPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\\u0422\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\Performance\\Bucketlist\\BucketList\\Views\\GoalPage.xaml.cs",
-              "RelativeDocumentMoniker": "Bucketlist\\BucketList\\Views\\GoalPage.xaml.cs",
-              "ToolTip": "C:\\Users\\\u0422\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\Performance\\Bucketlist\\BucketList\\Views\\GoalPage.xaml.cs",
-              "RelativeToolTip": "Bucketlist\\BucketList\\Views\\GoalPage.xaml.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAowDYAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T14:08:16.218Z",
+              "Title": "CheckpointPage.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0422\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\Performance\\Bucketlist\\BucketList\\Views\\CheckpointPage.xaml",
+              "RelativeDocumentMoniker": "Bucketlist\\BucketList\\Views\\CheckpointPage.xaml",
+              "ToolTip": "C:\\Users\\\u0422\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\Performance\\Bucketlist\\BucketList\\Views\\CheckpointPage.xaml",
+              "RelativeToolTip": "Bucketlist\\BucketList\\Views\\CheckpointPage.xaml",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAAAHwAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-22T01:22:09.34Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CheckpointPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\\u0422\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\Performance\\Bucketlist\\BucketList\\Views\\CheckpointPage.xaml.cs",
-              "RelativeDocumentMoniker": "Bucketlist\\BucketList\\Views\\CheckpointPage.xaml.cs",
-              "ToolTip": "C:\\Users\\\u0422\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\Performance\\Bucketlist\\BucketList\\Views\\CheckpointPage.xaml.cs",
-              "RelativeToolTip": "Bucketlist\\BucketList\\Views\\CheckpointPage.xaml.cs",
-              "ViewState": "AQIAACgAAAAAAAAAAAA0wEAAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T14:05:06.162Z"
+              "Title": "CategoryPage.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0422\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\Performance\\Bucketlist\\BucketList\\Views\\CategoryPage.xaml",
+              "RelativeDocumentMoniker": "Bucketlist\\BucketList\\Views\\CategoryPage.xaml",
+              "ToolTip": "C:\\Users\\\u0422\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\Performance\\Bucketlist\\BucketList\\Views\\CategoryPage.xaml",
+              "RelativeToolTip": "Bucketlist\\BucketList\\Views\\CategoryPage.xaml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAEEAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-22T01:21:39.879Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "RepeatActionPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\\u0422\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\Performance\\Bucketlist\\BucketList\\Views\\RepeatActionPage.xaml.cs",
-              "RelativeDocumentMoniker": "Bucketlist\\BucketList\\Views\\RepeatActionPage.xaml.cs",
-              "ToolTip": "C:\\Users\\\u0422\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\Performance\\Bucketlist\\BucketList\\Views\\RepeatActionPage.xaml.cs",
-              "RelativeToolTip": "Bucketlist\\BucketList\\Views\\RepeatActionPage.xaml.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAjwC4AAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T13:00:29.328Z"
+              "Title": "RoadmapPage.xaml",
+              "DocumentMoniker": "C:\\Users\\\u0422\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\Performance\\Bucketlist\\BucketList\\Views\\RoadmapPage.xaml",
+              "RelativeDocumentMoniker": "Bucketlist\\BucketList\\Views\\RoadmapPage.xaml",
+              "ToolTip": "C:\\Users\\\u0422\u0438\u043C\u043E\u0444\u0435\u0439\\source\\repos\\Performance\\Bucketlist\\BucketList\\Views\\RoadmapPage.xaml",
+              "RelativeToolTip": "Bucketlist\\BucketList\\Views\\RoadmapPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-22T01:21:53.696Z",
+              "EditorCaption": ""
             }
           ]
         }

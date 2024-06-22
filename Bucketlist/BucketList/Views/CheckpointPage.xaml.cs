@@ -67,6 +67,7 @@ namespace BucketList.Views
             Checkpoint checkpoint = (Checkpoint)BindingContext;
             
             checkpoint.IsCompleted = true;
+            await App.BucketlistDB.SaveCheckpointAsync(checkpoint);
             await Navigation.PopModalAsync();
         }
     }

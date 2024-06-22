@@ -53,6 +53,7 @@ namespace BucketList.Views
         {
             Goal goal = (Goal)BindingContext;
             goal.IsCompleted = true;
+            await App.BucketlistDB.SaveGoalAsync(goal);
             await Navigation.PopModalAsync();
         }
    

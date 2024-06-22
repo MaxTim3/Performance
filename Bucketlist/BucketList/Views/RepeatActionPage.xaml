@@ -52,10 +52,5 @@
             TextColor="White"
             Margin="20, 0, 20, 30"/>
         </StackLayout>
-
-        <!--
-            <Label x:Name="count_number"
-                   Text=""/>
-        -->
     </ContentPage.Content>
 </ContentPage>

@@ -1,7 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:BucketList;assembly=BucketList"
              x:Class="BucketList.Views.RoadmapPage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <local:BoolToColorConverter x:Key="BoolToColorConverter" FalseBrush="#943271" TrueBrush="#E08100" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
     <ContentPage.Content>
         <AbsoluteLayout BackgroundColor="#1B1B39"
                 Padding="0"
@@ -53,8 +59,10 @@
                                     <StackLayout Orientation="Horizontal"
                                          Spacing="20"
                                          Padding="15, 0">
-                                        <BoxView Color="#943271"
-                                         CornerRadius="250"
+
+
+                                        <BoxView Color= "#943271"
+                                        CornerRadius="250"
                                          HeightRequest="60"
                                          WidthRequest="60"
                                          x:Name="df"/>

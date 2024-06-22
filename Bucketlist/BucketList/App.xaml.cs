@@ -30,15 +30,15 @@ namespace BucketList
         {
             InitializeComponent();
 
-            if (string.IsNullOrEmpty(UserName.Name))
+            /*if (string.IsNullOrEmpty(UserName.Name))
             {
-                MainPage = new NavigationPage(new SignInPage());
+                MainPage = new SignInPage();
             }
 
             else 
-            {
-                MainPage = new NavigationPage(new HomePage());
-            }
+            {*/
+                MainPage = new HomePage();
+            //}
         }
 
         protected override void OnStart()

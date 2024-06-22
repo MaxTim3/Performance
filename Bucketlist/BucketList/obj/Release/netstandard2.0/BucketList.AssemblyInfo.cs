@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BucketList")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1aead84c161b72718c14c369838901196692ce61")]
 [assembly: System.Reflection.AssemblyProductAttribute("BucketList")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BucketList")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
